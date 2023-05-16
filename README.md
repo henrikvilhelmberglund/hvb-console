@@ -10,6 +10,14 @@ After:
 
 ![hvb-console-after](https://user-images.githubusercontent.com/110549389/238592380-788069a4-236a-4afe-8490-441705f9a928.png)
 
+## Install
+
+```bash
+npm install hvb-console
+```
+
 ## Usage
 
-`import console from hvb-console`
+```js
+import console from "hvb-console";
+```
