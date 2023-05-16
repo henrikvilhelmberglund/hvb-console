@@ -2,6 +2,8 @@
 
 This is a library that gives some color to your console.info(), console.warn() and console.error().
 
+It only changes Node console.logs (server side only).
+
 Before:
 
 ![hvb-console-before](https://user-images.githubusercontent.com/110549389/238592355-5a3db714-60ad-4bf0-946a-afbaa43e039a.png)
