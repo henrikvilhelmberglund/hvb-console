@@ -1,0 +1,27 @@
+{
+  "name": "hvb-template",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Description of your library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "npx commit-and-tag-version"
+  },
+  "keywords": [
+    "library",
+    "template"
+  ],
+  "author": "Henrik Berglund",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henrikvilhelmberglund/hvb-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/henrikvilhelmberglund/hvb-template/issues"
+  },
+  "homepage": "https://github.com/henrikvilhelmberglund/hvb-template#readme",
+  "dependencies": {},
+  "devDependencies": {}
+}
