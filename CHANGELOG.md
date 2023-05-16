@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.0.1](https://github.com/henrikvilhelmberglund/hvb-console/compare/v0.0.0...v0.0.1) (2023-05-16)
+
+
+### Bug Fixes
+
+* :bug: make typescript happy ([ea846f6](https://github.com/henrikvilhelmberglund/hvb-console/commit/ea846f655c94d979caaea4ef82c1cb7a0355a7af))
+* :zap: update package.json ([74e4de5](https://github.com/henrikvilhelmberglund/hvb-console/commit/74e4de5835427d2accacecd3d7b5714a605cb2f5))
+
 ## 0.0.0 (2023-05-16)
 
 
