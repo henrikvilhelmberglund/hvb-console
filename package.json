@@ -1,27 +1,27 @@
 {
-  "name": "hvb-template",
+  "name": "hvb-console",
   "version": "0.0.0",
-  "private": true,
-  "description": "Description of your library",
+  "private": false,
+  "description": "Colored console logs server side using kleur.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "release": "npx commit-and-tag-version"
   },
   "keywords": [
-    "library",
-    "template"
+    "console",
+    "color"
   ],
   "author": "Henrik Berglund",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/henrikvilhelmberglund/hvb-template.git"
+    "url": "git+https://github.com/henrikvilhelmberglund/hvb-console.git"
   },
   "bugs": {
-    "url": "https://github.com/henrikvilhelmberglund/hvb-template/issues"
+    "url": "https://github.com/henrikvilhelmberglund/hvb-console/issues"
   },
-  "homepage": "https://github.com/henrikvilhelmberglund/hvb-template#readme",
+  "homepage": "https://github.com/henrikvilhelmberglund/hvb-console#readme",
   "dependencies": {},
   "devDependencies": {}
 }
