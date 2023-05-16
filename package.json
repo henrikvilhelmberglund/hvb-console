@@ -22,6 +22,7 @@
     "url": "https://github.com/henrikvilhelmberglund/hvb-console/issues"
   },
   "homepage": "https://github.com/henrikvilhelmberglund/hvb-console#readme",
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "kleur": "^4.1.5"
+  }
 }
