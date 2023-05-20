@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.0.2](https://github.com/henrikvilhelmberglund/hvb-console/compare/v0.0.1...v0.0.2) (2023-05-20)
+
+
+### Bug Fixes
+
+* :bug: only color strings, support multiple argumens ([fec3819](https://github.com/henrikvilhelmberglund/hvb-console/commit/fec381993c0c18b19f5d183bad644c79fece0ea6))
+* :zap: update package.json ([521de33](https://github.com/henrikvilhelmberglund/hvb-console/commit/521de33d807a6d9c77429979d80e7cdd1ab64c97))
+
 ## [0.0.1](https://github.com/henrikvilhelmberglund/hvb-console/compare/v0.0.0...v0.0.1) (2023-05-16)
 
 
