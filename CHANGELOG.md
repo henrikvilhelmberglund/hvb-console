@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.0.4](https://github.com/henrikvilhelmberglund/hvb-console/compare/v0.0.3...v0.0.4) (2023-10-28)
+
+
+### Bug Fixes
+
+* :pencil2: remove extra parenthesis ([2e23410](https://github.com/henrikvilhelmberglund/hvb-console/commit/2e234101699cd8136b8dc8822f9cc23e76a4105b))
+
 ## [0.0.3](https://github.com/henrikvilhelmberglund/hvb-console/compare/v0.0.2...v0.0.3) (2023-10-28)
 
 
