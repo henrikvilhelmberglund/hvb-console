@@ -37,7 +37,7 @@ console.info = (...args) => {
       return arg;
     }
   });
-  formattedArgs.push(kleur.italic(`(${initiator})`));
+  formattedArgs.push(kleur.italic(`(${initiator}`));
   originalInfo.apply(console, formattedArgs);
 };
 
@@ -54,7 +54,7 @@ console.warn = (...args) => {
       return arg;
     }
   });
-  formattedArgs.push(kleur.italic(`(${initiator})`));
+  formattedArgs.push(kleur.italic(`(${initiator}`));
   originalWarn.apply(console, formattedArgs);
 };
 
@@ -71,7 +71,7 @@ console.error = (...args) => {
       return arg;
     }
   });
-  formattedArgs.push(kleur.italic(`(${initiator})`));
+  formattedArgs.push(kleur.italic(`(${initiator}`));
   originalError.apply(console, formattedArgs);
 };
 
@@ -87,7 +87,7 @@ console.log = (...args) => {
       return arg;
     }
   });
-  formattedArgs.push(kleur.italic(`(${initiator})`));
+  formattedArgs.push(kleur.italic(`(${initiator}`));
   originalLog.apply(console, formattedArgs);
 };
 
