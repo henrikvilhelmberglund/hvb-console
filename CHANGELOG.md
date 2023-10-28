@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.0.3](https://github.com/henrikvilhelmberglund/hvb-console/compare/v0.0.2...v0.0.3) (2023-10-28)
+
+
+### Features
+
+* :sparkles: add text showing which file the log was triggered from ([d1c2032](https://github.com/henrikvilhelmberglund/hvb-console/commit/d1c20325d48abe2d33fc70326b1f97917bded4a7))
+
 ## [0.0.2](https://github.com/henrikvilhelmberglund/hvb-console/compare/v0.0.1...v0.0.2) (2023-05-20)
 
 

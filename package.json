@@ -1,6 +1,6 @@
 {
   "name": "hvb-console",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": false,
   "description": "Colored console logs server side using kleur.",
   "main": "index.js",
