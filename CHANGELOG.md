@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.0.5](https://github.com/henrikvilhelmberglund/hvb-console/compare/v0.0.4...v0.0.5) (2023-11-05)
+
+
+### Features
+
+* support loops, make path shorter ([415ab33](https://github.com/henrikvilhelmberglund/hvb-console/commit/415ab3369b164bd2eceadbc81489240365458fb4))
+
 ## [0.0.4](https://github.com/henrikvilhelmberglund/hvb-console/compare/v0.0.3...v0.0.4) (2023-10-28)
 
 
