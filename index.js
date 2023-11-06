@@ -24,8 +24,15 @@ function getInitiator(e) {
           } else {
             initiator = "something went wrong";
           }
-          // remove long path info, split at last /
-          initiator = initiator.split("/")[initiator.split("/").length - 1];
+
+          if (initiator.includes("src")) {
+            // if src is in path, split at src to support +page.svelte etc with same file names
+            initiator = `src${initiator.split("src")[1]}`;
+          } else {
+            // remove long path info, split at last /
+            initiator = initiator.split("/")[initiator.split("/").length - 1];
+          }
+
           return initiator;
         }
         isFirst = false;
@@ -47,7 +54,11 @@ console.log = (...args) => {
     }
   });
   formattedArgs.push(kleur.italic(`(${initiator}`));
-  originalLog.apply(console, formattedArgs);
+  if (typeof window !== "undefined") {
+    originalLog.apply(console, args);
+  } else {
+    originalLog.apply(console, formattedArgs);
+  }
 };
 
 console.info = (...args) => {
@@ -64,7 +75,11 @@ console.info = (...args) => {
     }
   });
   formattedArgs.push(kleur.italic(`(${initiator}`));
-  originalInfo.apply(console, formattedArgs);
+  if (typeof window !== "undefined") {
+    originalInfo.apply(console, args);
+  } else {
+    originalInfo.apply(console, formattedArgs);
+  }
 };
 
 console.warn = (...args) => {
@@ -81,7 +96,11 @@ console.warn = (...args) => {
     }
   });
   formattedArgs.push(kleur.italic(`(${initiator}`));
-  originalWarn.apply(console, formattedArgs);
+  if (typeof window !== "undefined") {
+    originalWarn.apply(console, args);
+  } else {
+    originalWarn.apply(console, formattedArgs);
+  }
 };
 
 console.error = (...args) => {
@@ -98,7 +117,11 @@ console.error = (...args) => {
     }
   });
   formattedArgs.push(kleur.italic(`(${initiator}`));
-  originalError.apply(console, formattedArgs);
+  if (typeof window !== "undefined") {
+    originalError.apply(console, args);
+  } else {
+    originalError.apply(console, formattedArgs);
+  }
 };
 
 export default console;
