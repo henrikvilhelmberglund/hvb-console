@@ -5,7 +5,7 @@ This is a library that
 - gives some color to your console.info(), console.warn() and console.error()
 - adds the location where the log was called from and you can ctrl+click it to go to that location
 
-It only works in Node console.logs (server side only).
+It only affects Node console.logs (server side only). Browser logging is unaffected.
 
 Before:
 
