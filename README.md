@@ -1,8 +1,11 @@
 # hvb-console
 
-This is a library that gives some color to your console.info(), console.warn() and console.error().
+This is a library that 
 
-It only changes Node console.logs (server side only).
+- gives some color to your console.info(), console.warn() and console.error()
+- adds the location where the log was called from and you can ctrl+click it to go to that location
+
+It only works in Node console.logs (server side only).
 
 Before:
 
@@ -15,7 +18,7 @@ After:
 ## Install
 
 ```bash
-npm install hvb-console
+npm install -D hvb-console
 ```
 
 ## Usage
