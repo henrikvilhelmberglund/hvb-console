@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.0.6](https://github.com/henrikvilhelmberglund/hvb-console/compare/v0.0.5...v0.0.6) (2023-11-06)
+
+
+### Features
+
+* don't affect browser console logs etc, split path at src if it is in the path ([a0e4a14](https://github.com/henrikvilhelmberglund/hvb-console/commit/a0e4a14cc6b7ba5b5ed17e7495ed28b504bd3801))
+
 ## [0.0.5](https://github.com/henrikvilhelmberglund/hvb-console/compare/v0.0.4...v0.0.5) (2023-11-05)
 
 
