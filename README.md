@@ -13,7 +13,8 @@ Before:
 
 After:
 
-![hvb-console-after](https://user-images.githubusercontent.com/110549389/238592380-788069a4-236a-4afe-8490-441705f9a928.png)
+![hvb-console-after](https://github.com/henrikvilhelmberglund/hvb-console/assets/110549389/8883f503-82bb-4952-9dcf-6fbb6826cfb1)
+
 
 ## Install
 
